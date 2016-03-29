@@ -46,15 +46,15 @@ Developer @GA in NYC
 /*******************************************/
 
 body {
-   color: #000;
-   font-size: 12px;
-   line-height: 1.4;
-   font-family: Helvetica, Arial, sans-serif;
-   background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-    background-size: cover;
-    text-align: center;
-    padding: 50px;
-    border:black solid 1px;
+      color: #000;
+      font-size: 12px;
+      line-height: 1.4;
+      font-family: Helvetica, Arial, sans-serif;
+
+      background-size: cover;
+      text-align: center;
+      padding: 50px;
+  
 }
 
 
@@ -72,12 +72,13 @@ body {
 
 header {
   text-align: center;
-
+  background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+  padding:50px;
 }
 
 .whiteTextLogo{
   font-size: 24px;
-  font-weight: Extrabold;
+  font-weight: 800;
   color:white;
   text-align: left;
 }
@@ -99,8 +100,9 @@ h3{
 
 .greyBackground{
   background: #f0efef;
-  font-weight: light;
+  font-weight: 300;
   font-size: 13px;
+  padding: 50px;
 }
 
 .greyBackground--p{
@@ -108,11 +110,12 @@ h3{
   text-align: left;
 }
 
-h4{
-  font-weight: Semibold;
+button{
+  font-weight: 600;
   font-size: 20px;
   color:#033048;
   text-align: left;
+  background: #f9e42e;
 }
 
 ul{
@@ -121,26 +124,42 @@ ul{
   text-align: left;
 }
 
+h4{
+  font-size: 20px;
+  font-weight:600;
+  color: #033048;
+  text-align: left;
+
+}
+
+.testimonial{
+  text-align: center;
+  background-image: url(../images/testimonial_bg.jpg);
+}
+
 .testimonialQuote{
-  font-weight: Light;
+  font-weight: 300;
   font-style: italic;
   font-size: 18px;
   color:white;
 }
 
 .testimonialName{
-  font-weight: Semibold;
+  font-weight: 600;
   font-size: 18px;
   color:white;
 }
 
-h5{
-    background: yellow; 
-}
 
 
 .signUp{
-  font-weight: Extrabold;
+  background:#f9e42e; 
+
+}
+
+
+.signUp--button{
+  font-weight: 800;
   font-size: 12px;
   background:#033048;
   color:white;
@@ -156,14 +175,16 @@ footer {
 
 }
 
+
+
 .yellowTextLogo{
-  font-weight: Extrabold;
+  font-weight: 800;
   font-size: 24px; 
   color: #f9e42e;
 }
 
 .copyright{
-  font-weight: Semibold;
+  font-weight: 600;
   font-size: 9px;
   color:white;
 }
