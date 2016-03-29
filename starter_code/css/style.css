@@ -19,12 +19,12 @@ Developer @GA in NYC
 
 /* Clear fix hack */
 .clearfix:after {
-     content: ".";
-     display: block;
-     clear: both;
-     visibility: hidden;
-     line-height: 0;
-     height: 0;
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
 }
 
 .clear {
@@ -46,14 +46,14 @@ Developer @GA in NYC
 /*******************************************/
 
 body {
-      color: #000;
-      font-size: 12px;
-      line-height: 1.4;
-      font-family: Helvetica, Arial, sans-serif;
+  color: #000;
+  font-size: 12px;
+  line-height: 1.4;
+  font-family: Helvetica, Arial, sans-serif;
 
-      background-size: cover;
-      text-align: center;
-      padding: 50px;
+  background-size: cover;
+  text-align: center;
+  padding: 200px;
   
 }
 
@@ -73,7 +73,9 @@ body {
 header {
   text-align: center;
   background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+  background-position: center;
   padding:50px;
+
 }
 
 .whiteTextLogo{
@@ -81,22 +83,27 @@ header {
   font-weight: 800;
   color:white;
   text-align: left;
+  padding-left: 100px;
 }
 
 h2{
   font-size: 24px;
   font-weight: 600;
   color:white;
+  padding:100px;
 }
 
-h3{
-  font-size: 14px;
-  font-weight: 800;
+
+button{
+  font-weight: 600;
+  font-size: 20px;
+  color:#033048;
+  text-align: left;
   background: #f9e42e;
-  border-radius: 5px;
-  width:10%;
-  height:5%;
+  padding:10px;
+  margin:30px;
 }
+
 
 .greyBackground{
   background: #f0efef;
@@ -110,13 +117,7 @@ h3{
   text-align: left;
 }
 
-button{
-  font-weight: 600;
-  font-size: 20px;
-  color:#033048;
-  text-align: left;
-  background: #f9e42e;
-}
+
 
 ul{
   list-style-type: circle;
@@ -124,7 +125,9 @@ ul{
   text-align: left;
 }
 
-h4{
+
+
+h3{
   font-size: 20px;
   font-weight:600;
   color: #033048;
@@ -135,6 +138,7 @@ h4{
 .testimonial{
   text-align: center;
   background-image: url(../images/testimonial_bg.jpg);
+  padding: 40px
 }
 
 .testimonialQuote{
@@ -163,7 +167,6 @@ h4{
   font-size: 12px;
   background:#033048;
   color:white;
-  border-radius: 5px;
   height: 10%;
   width:15%;
   text-align: center;
@@ -175,18 +178,27 @@ footer {
 
 }
 
+.twitter{
+  margin-right: 10px;
+}
+
+.fb{
+  margin-left: 10px;
+}
 
 
 .yellowTextLogo{
   font-weight: 800;
   font-size: 24px; 
   color: #f9e42e;
+  padding: 10px;
 }
 
 .copyright{
   font-weight: 600;
   font-size: 9px;
   color:white;
+  padding: 15px;
 }
 
 
