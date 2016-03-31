@@ -1,4 +1,15 @@
 /*
+  Hi Valentine!  I added feedback about your code in CSS comments like this one.
+
+  Overall, fantastic job with this!  Your CSS code is well organized (also thanks to the way you 
+  named your classes in the HTML files) and well indented.
+
+  More comments below!  (Although, I really do not have too many comments for your CSS.  It largely
+  looks good and functions as it should.)
+*/
+
+
+/*
 Project Name: Blank Template
 Client: Your Client
 Author: Your Name
@@ -49,10 +60,20 @@ body {
   color: #000;
   font-size: 12px;
   line-height: 1.4;
+
+  /* 
+    I saw that you included the link to the Open Sans Google font in your HTML, but you also 
+    need to tell your CSS that you want to use that font here, in the font-family rule.
+  */
   font-family: Helvetica, Arial, sans-serif;
 
   background-size: cover;
   text-align: center;
+  /* 
+    I did see that there is a ton of white space around the entire page.  This padding rule is why.
+    Since you are adding 200px of padding inside of each side of the <body> tag, that means that
+    the elements inside of the body tag start and end 200px from the edge of the page.
+  */
   padding: 200px;
   
 }
@@ -73,6 +94,25 @@ body {
 header {
   text-align: center;
   background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+  /* 
+    This background-position rule is actually overwriting the positioning you set up in the background
+    rule in the line above.  
+
+    The background rule above is setting the position of the background to
+    "center top", which means the background is horizontally centered and vertically aligned to the top.
+
+    The background-position rule below is saying that the background is both horizontally and vertically
+    centered.
+
+    That being said, putting everything in the background rule (above) can be a little confusing because you can
+    have a lot of information in just that one line, which can make it harder to read.  It might be easier to 
+    separate out all of the elements like this instead:
+
+      background-image: url('../images/header_bg.jpg');
+      background-repeat: no-repeat;
+      background-position: center top;
+      background-color: rgb(134,141,157);
+  */
   background-position: center;
   padding:50px;
 
@@ -138,6 +178,10 @@ h3{
 .testimonial{
   text-align: center;
   background-image: url(../images/testimonial_bg.jpg);
+  /* 
+    Probably a typo, but make sure all of your rules always end with a semi-colon, even if it is the
+    last rule in the block.
+  */
   padding: 40px
 }
 
