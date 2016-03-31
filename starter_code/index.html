@@ -1,3 +1,17 @@
+<!-- 
+	Hi Valentine!  I added feedback about your code in HTML comments like this one.
+
+	Overall, great job!  The page looks just like the design file and your code is very neat,
+	organized, and well indented, which makes it very easy for me to follow.
+
+	Another overall comment - I noticed you did not use the <nav> tag in here.  I completely understand
+	why - there is no obvious navigation (though you could make the case that the social media icons are
+	a "navigation" to the links to those site).  I just wanted to make sure you are aware of the <nav> tag
+	for future projects that have a more obvious navigation.
+
+	More comments below!
+-->
+
 <!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -17,12 +31,30 @@
 	<body>
 
 		<div id="container">
+			<!-- Great use of the header tag here -->
 			<header>
 				<h1 class="whiteTextLogo">Relaxr</h1>
+				<!-- 
+					Technically, the tag line below is not a sub-topic of the main topic of this page ('Relaxr'),
+					so it should not be using the <h2> tag.  It is best to use a <p> tag instead.
+				-->
 				<h2>Get piece of mind with a single tap</h2>
+				<!--
+					Since this "Get it now" button would probably go to another page, this should be
+					an <a> tag instead.  You can always style <a> tags to look like <button> tags, though
+					I completely get why you chose the <button> tag here.  This wasn't particularly clear
+					in the design file, so don't worry about it too much in this case, but something to
+					think about for future projects.
+				-->
 				<button>Get it now</button>
 			</header>
 
+			<!-- 
+				<div> tags are totally fine here, but it is more semantically correct to use something
+				like the <section> tag instead, since these blocks of stuff on the page are more like
+				sections of the page.  The <div> tag is usually used when no other HTML5 tags make sense -
+				kind of like the "other" category in surveys.
+			-->
 			<div class="greyBackground">
 				<h3>Benefits</h3>
 
@@ -37,6 +69,10 @@
 			</div>
 
 
+			<!--
+				This applies to all of the classes in these sections, but I really like how you organized
+				the names of your classes for each section so that they relate to each other.
+			-->
 			<div class="testimonial">
 				<p class="testimonialQuote">“Relaxr changed my life. I’ve been able to travel the world, spend limited time working and my boss keeps thanking me for crushing work.”</p>
 				<p class="testimonialName"> - Amanda, Intuit</p>
